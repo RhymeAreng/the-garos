@@ -157,6 +157,7 @@ h2 {
 figure {
   margin: 28px 0;
 }
+/*-- Place holder style for figure images */
 .figure-placeholder {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -171,6 +172,15 @@ figure {
   text-align: center;
   padding: 16px;
 }
+
+.figure-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+
 figcaption {
   color: var(--color-muted);
   font-size: 14px;
